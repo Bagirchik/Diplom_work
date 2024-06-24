@@ -1,0 +1,18 @@
+﻿<Window x:Class="Diplom_Work.View.Showing"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diplom_Work.View"
+        mc:Ignorable="d"
+        Title="Представления" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <ListBox x:Name="ShowsListBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" SelectionChanged="ShowsListBox_SelectionChanged">
+                <!-- Представления будут загружаться и отображаться здесь -->
+            </ListBox>
+        </Grid>
+        <Button x:Name="Back_bt" Content="Назад" Click="Back_bt_Click" HorizontalAlignment="Center" Margin="0,384,0,0" VerticalAlignment="Top" Height="25" Width="96"/>
+
+    </Grid>
+</Window>
